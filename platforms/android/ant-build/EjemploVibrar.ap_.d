@@ -39,7 +39,12 @@ D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins \
 D:\workspace\ejemplovibrar\platforms\android\assets\www\css\index.css \
 D:\workspace\ejemplovibrar\platforms\android\assets\www\img\logo.png \
 D:\workspace\ejemplovibrar\platforms\android\assets\www\js\index.js \
+D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
 D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.vibration \
+D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www \
+D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android \
+D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\notification.js \
+D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android\notification.js \
 D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.vibration\www \
 D:\workspace\ejemplovibrar\platforms\android\assets\www\plugins\org.apache.cordova.vibration\www\vibration.js \
 D:\workspace\ejemplovibrar\platforms\android\ant-build\AndroidManifest.xml \

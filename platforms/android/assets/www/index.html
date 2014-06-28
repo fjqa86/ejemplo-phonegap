@@ -31,6 +31,7 @@
         <div class="app">
             <h1>Ejemplo App Empresariales</h1>
             <button  onclick="vibrar()">Vibrar</button>
+            <button  onclick="ubicacion()">Ubicacion actual</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript">
@@ -48,6 +49,29 @@
             //
             function vibrar() {
                 navigator.notification.vibrate(2000);
+            }
+            
+           
+            function ubicacion(){
+                navigator.geolocation.getCurrentPosition(onSuccess, onError);
+            }
+            
+            function onSuccess(position) {
+               navigator.notification.alert('Latitude: '          + position.coords.latitude          + '\n' +
+                      'Longitude: '         + position.coords.longitude         + '\n' +
+                      'Altitude: '          + position.coords.altitude          + '\n' +
+                      'Accuracy: '          + position.coords.accuracy          + '\n' +
+                      'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+                      'Heading: '           + position.coords.heading           + '\n' +
+                      'Speed: '             + position.coords.speed             + '\n' +
+                      'Timestamp: '         + position.timestamp                + '\n');
+            };
+
+            // onError Callback receives a PositionError object
+            //
+            function onError(error) {
+               navigator.notification.alert('code: '    + error.code    + '\n' +
+                      'message: ' + error.message + '\n');
             }
         </script>
     </body>
